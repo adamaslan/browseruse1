@@ -1,8 +1,6 @@
-# Market Events Agent Report
+MARKET EVENTS SUMMARY
+==================================================
 
-*Generated on: 2025-09-05 19:17:12*
-
-## Final Result
 The task to find market-moving events in the next two weeks (up to 2025-09-19) is incomplete. I have successfully identified the Federal Reserve FOMC meeting:
 
 ## Federal Reserve Meetings:
@@ -21,6 +19,5 @@ results.md:
 - Date: September 16-17, 2025
 - Event Type: FOMC Meeting
 - Why it matters: Decisions on interest rates and monetary policy can significantly impact the stock market.
-
 
 
