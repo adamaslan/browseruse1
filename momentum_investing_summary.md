@@ -304,3 +304,46 @@ In particular, investors should consider how best to manage the risk in strategi
 
 Lastly, the author suggests that the predictive nature of his crowding framework for ARP performance could serve as a starting point for investors seeking to time factor-based investments.
 </result>
+
+
+---
+
+## Research Batch (nber.org, aqr.com, researchaffiliates.com)
+
+The task is not fully completed. I have made progress on the following:
+
+**NBER.org:**
+- Successfully searched nber.org for 'momentum investing market dynamics'.
+- Extracted relevant information from an NBER paper (w23910) on momentum investing. The key takeaways are saved in `extracted_content_0.md`.
+
+**AQR.com:**
+- Successfully searched aqr.com for 'momentum investing market dynamics'.
+- Downloaded and read the PDF 'JPM Fact Fiction and Momentum Investing.pdf'. The raw content of this PDF is available in the agent's memory from the last step. However, I was unable to successfully extract structured data from this PDF using the `extract_structured_data` tool, as it repeatedly targeted the Google search results page instead of the PDF content.
+
+**Remaining Tasks:**
+- Extracting structured information from aqr.com (failed).
+- Searching and extracting information from researchaffiliates.com.
+- Compiling all extracted information.
+- Creating a markdown summary with sections: Key Findings, Implications for Investors, and Practical Recommendations.
+
+Due to the incomplete extraction from AQR and no progress on Research Affiliates, the full user request could not be met within the given steps.
+
+Attachments:
+
+extracted_content_0.md:
+<url>
+https://www.nber.org/papers/w23910
+</url>
+<query>
+Summarize key takeaways from this paper about momentum investing, including insights on portfolio construction, trading costs, holding periods, scalability, and adaptation. Focus on how strategies adapt to changing market dynamics.
+</query>
+<result>
+Key takeaways from the paper regarding momentum investing:
+
+*   **Momentum Investing Insights:** A structural investment model, incorporating firm-level accounting variables and current assets as a separate production input, can jointly explain value and momentum. The model fits the momentum premium well and partially explains its procyclicality and short-term dynamics. However, it fails to explain momentum crashes.
+*   **Portfolio Construction:** Firm-level investment returns are constructed from firm-level accounting variables and then aggregated to the portfolio level to match with portfolio-level stock returns. Current assets are considered a separate production input in this model.
+*   **Trading Costs:** Information not available in the provided content.
+*   **Holding Periods:** The model partially explains the short-term dynamics of the momentum premium and the long-term dynamics of the value and investment premiums, but specific holding periods are not detailed.
+*   **Scalability:** Information not available in the provided content.
+*   **Adaptation to Changing Market Dynamics:** The model partially explains the procyclicality and short-term dynamics of the momentum and profitability premiums, and the countercyclicality and long-term dynamics of the value and investment premiums. This indicates the model captures some aspects of how these premiums behave under different market conditions. A significant limitation in adaptation is its failure to explain momentum crashes.
+</result>
