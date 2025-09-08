@@ -1,0 +1,256 @@
+[
+  {
+    "title": "Momentum universe shrinkage effect in price momentum",
+    "authors": [
+      "Jaehyung Choi",
+      "Sungsoo Choi",
+      "Wonseok Kang"
+    ],
+    "year": "2012",
+    "url": "http://arxiv.org/abs/1211.6517v1",
+    "processed_date": "2025-09-06T17:48:17.713900",
+    "query_term": "momentum trading"
+  },
+  {
+    "title": "Your AI, Not Your View: The Bias of LLMs in Investment Analysis",
+    "authors": [
+      "Hoyoung Lee",
+      "Junhyuk Seo",
+      "Suhwan Park",
+      "Junhyeong Lee",
+      "Wonbin Ahn",
+      "Chanyeol Choi",
+      "Alejandro Lopez-Lira",
+      "Yongjae Lee"
+    ],
+    "year": "2025",
+    "url": "http://arxiv.org/abs/2507.20957v2",
+    "processed_date": "2025-09-06T17:48:17.713906",
+    "query_term": "momentum investing"
+  },
+  {
+    "title": "Nonlinear Dynamical Model of Regime Switching Between Conventions and   Business Cycles",
+    "authors": [
+      "V. I. Yukalov",
+      "D. Sornette",
+      "E. P. Yukalova"
+    ],
+    "year": "2007",
+    "url": "http://arxiv.org/abs/nlin/0701014v1",
+    "processed_date": "2025-09-06T17:48:17.713907",
+    "query_term": "momentum investing"
+  },
+  {
+    "title": "Network Momentum across Asset Classes",
+    "authors": [
+      "Xingyue Pu",
+      "Stephen Roberts",
+      "Xiaowen Dong",
+      "Stefan Zohren"
+    ],
+    "year": "2023",
+    "url": "http://arxiv.org/abs/2308.11294v1",
+    "processed_date": "2025-09-06T17:52:38.475889",
+    "query_term": "momentum investing"
+  },
+  {
+    "title": "Hedging Properties of Algorithmic Investment Strategies using Long   Short-Term Memory and Time Series models for Equity Indices",
+    "authors": [
+      "Jakub Micha\u0144k\u00f3w",
+      "Pawe\u0142 Sakowski",
+      "Robert \u015alepaczuk"
+    ],
+    "year": "2023",
+    "url": "http://arxiv.org/abs/2309.15640v1",
+    "processed_date": "2025-09-06T17:52:38.475894",
+    "query_term": "momentum investing"
+  },
+  {
+    "title": "Momentum Strategies with L1 Filter",
+    "authors": [
+      "Tung-Lam Dao"
+    ],
+    "year": "2014",
+    "url": "http://arxiv.org/abs/1403.4069v1",
+    "processed_date": "2025-09-06T17:52:38.475896",
+    "query_term": "momentum investing"
+  },
+  {
+    "title": "Relativistic velocity transformation as a genitor of transformation   equations (relativistic dynamics)",
+    "authors": [
+      "Bernhard Rothenstein"
+    ],
+    "year": "2005",
+    "url": "http://arxiv.org/abs/physics/0505025v1",
+    "processed_date": "2025-09-06T17:53:11.549347",
+    "query_term": "momentum transformer"
+  },
+  {
+    "title": "Energy-momentum and angular momentum densities in gauge theories of   gravity",
+    "authors": [
+      "Toshiharu Kawai"
+    ],
+    "year": "2000",
+    "url": "http://arxiv.org/abs/gr-qc/0007081v2",
+    "processed_date": "2025-09-06T17:53:11.549354",
+    "query_term": "momentum transformer"
+  },
+  {
+    "title": "Momentum Transformer: Closing the Performance Gap Between Self-attention   and Its Linearization",
+    "authors": [
+      "Tan Nguyen",
+      "Richard G. Baraniuk",
+      "Robert M. Kirby",
+      "Stanley J. Osher",
+      "Bao Wang"
+    ],
+    "year": "2022",
+    "url": "http://arxiv.org/abs/2208.00579v1",
+    "processed_date": "2025-09-06T17:53:11.549356",
+    "query_term": "momentum transformer"
+  },
+  {
+    "title": "Generators of Internal Lorentz Transformations and of General Affine   Coordinate Transformations in Teleparallel Theory of (2+1)-Dimensional   Gravity --- Cases with Static Circularly Symmetric Space-Times---",
+    "authors": [
+      "Toshiharu Kawai"
+    ],
+    "year": "1995",
+    "url": "http://arxiv.org/abs/gr-qc/9507017v1",
+    "processed_date": "2025-09-06T17:53:49.626696",
+    "query_term": "momentum transformer"
+  },
+  {
+    "title": "The Quantum Mellin transform",
+    "authors": [
+      "J. Twamley",
+      "G. J. Milburn"
+    ],
+    "year": "2007",
+    "url": "http://arxiv.org/abs/quant-ph/0702107v1",
+    "processed_date": "2025-09-06T17:53:49.626708",
+    "query_term": "momentum transformer"
+  },
+  {
+    "title": "Network Momentum across Asset Classes",
+    "authors": [
+      "Xingyue Pu",
+      "Stephen Roberts",
+      "Xiaowen Dong",
+      "Stefan Zohren"
+    ],
+    "year": "2023",
+    "url": "http://arxiv.org/abs/2308.11294v1",
+    "processed_date": "2025-09-06T17:53:49.626713",
+    "query_term": "network momentum"
+  },
+  {
+    "title": "Sparse Networks from Scratch: Faster Training without Losing Performance",
+    "authors": [
+      "Tim Dettmers",
+      "Luke Zettlemoyer"
+    ],
+    "year": "2019",
+    "url": "http://arxiv.org/abs/1907.04840v2",
+    "processed_date": "2025-09-06T17:54:59.942450",
+    "query_term": "network momentum"
+  },
+  {
+    "title": "Momentum Tracking: Momentum Acceleration for Decentralized Deep Learning   on Heterogeneous Data",
+    "authors": [
+      "Yuki Takezawa",
+      "Han Bao",
+      "Kenta Niwa",
+      "Ryoma Sato",
+      "Makoto Yamada"
+    ],
+    "year": "2022",
+    "url": "http://arxiv.org/abs/2209.15505v2",
+    "processed_date": "2025-09-06T17:54:59.942456",
+    "query_term": "network momentum"
+  },
+  {
+    "title": "A novel methodological framework for analyzing the momentum effect in   tennis singles",
+    "authors": [
+      "Chang Du",
+      "Caiya Zhang",
+      "Likai Zhou"
+    ],
+    "year": "2025",
+    "url": "http://arxiv.org/abs/2509.01243v1",
+    "processed_date": "2025-09-06T17:54:59.942457",
+    "query_term": "network momentum"
+  },
+  {
+    "title": "Momentum Residual Neural Networks",
+    "authors": [
+      "Michael E. Sander",
+      "Pierre Ablin",
+      "Mathieu Blondel",
+      "Gabriel Peyr\u00e9"
+    ],
+    "year": "2021",
+    "url": "http://arxiv.org/abs/2102.07870v3",
+    "processed_date": "2025-09-06T17:57:39.526941",
+    "query_term": "network momentum"
+  },
+  {
+    "title": "Forecasting intraday foreign exchange volatility with functional GARCH   approaches",
+    "authors": [
+      "Fearghal Kearney",
+      "Han Lin Shang",
+      "Yuqian Zhao"
+    ],
+    "year": "2023",
+    "url": "http://arxiv.org/abs/2311.18477v2",
+    "processed_date": "2025-09-06T17:57:39.526945",
+    "query_term": "intraday momentum strategy"
+  },
+  {
+    "title": "Intraday trading strategy based on time series and machine learning for   Chinese stock market",
+    "authors": [
+      "Q. Wang",
+      "Y. Zhou",
+      "J. Shen"
+    ],
+    "year": "2021",
+    "url": "http://arxiv.org/abs/2103.13507v1",
+    "processed_date": "2025-09-06T17:57:39.526947",
+    "query_term": "intraday momentum strategy"
+  },
+  {
+    "title": "Forecasting Intraday Volume in Equity Markets with Machine Learning",
+    "authors": [
+      "Mihai Cucuringu",
+      "Kang Li",
+      "Chao Zhang"
+    ],
+    "year": "2025",
+    "url": "http://arxiv.org/abs/2505.08180v1",
+    "processed_date": "2025-09-06T17:59:18.421628",
+    "query_term": "intraday momentum strategy"
+  },
+  {
+    "title": "Deep reinforcement learning with positional context for intraday trading",
+    "authors": [
+      "Sven Golu\u017ea",
+      "Tomislav Kova\u010devi\u0107",
+      "Tessa Bauman",
+      "Zvonko Kostanj\u010dar"
+    ],
+    "year": "2024",
+    "url": "http://arxiv.org/abs/2406.08013v1",
+    "processed_date": "2025-09-06T17:59:18.421637",
+    "query_term": "intraday momentum strategy"
+  },
+  {
+    "title": "Optimal Execution in Intraday Energy Markets under Hawkes Processes with   Transient Impact",
+    "authors": [
+      "Konstantinos Chatziandreou",
+      "Sven Karbach"
+    ],
+    "year": "2025",
+    "url": "http://arxiv.org/abs/2504.10282v1",
+    "processed_date": "2025-09-06T17:59:18.421639",
+    "query_term": "intraday momentum strategy"
+  }
+]
