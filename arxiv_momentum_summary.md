@@ -1,7 +1,7 @@
 
 
 ---
-
+# arxiv_momentum_summary.md
 ## Research Batch 1 (2025-09-06 17:48)
 
 I have successfully analyzed the three academic papers on momentum trading/investing as requested. I have generated a Markdown summary for each paper and compiled them into `paper_summaries.md`. I have also created a structured JSON output for each paper and compiled them into `results.json`. Both files are attached for your review.

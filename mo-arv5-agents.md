@@ -1,4 +1,4 @@
-Great question. You’re essentially asking: *how do we study how momentum strategies in markets have evolved alongside changes in technology and culture — and how can agents help make this process more powerful?*
+thesis: *how do we study how momentum in stock trading has changed and evolved alongside changes in technology and culture? how can agents help make this process of understanding how momentum in the stock market works more powerful?
 
 Here’s a structured breakdown of the **research workflow** and how **AI agents** (like the arXiv agent you’re building) can augment each stage.
 
