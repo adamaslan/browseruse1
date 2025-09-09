@@ -1,36 +1,62 @@
-# Browser-Use AI Research Project Overview
+# arXiv Research Agent Codebase Overview
 
-## Project Summary
-This project utilizes AI-powered research agents to analyze academic papers and market data related to momentum trading and investing strategies. The system appears to use browser automation (browser-use) to gather, process, and summarize research information, creating structured outputs for further analysis.
+This document provides a high-level overview of the key aspects of the arXiv research agent codebase, which fetches and analyzes academic papers related to momentum trading and investing.
 
-## 10 Key Observations
+## 1. Setup and Imports
 
-1. **Automated Research Pipeline**: The project implements an automated research pipeline that can fetch, analyze, and summarize academic papers from sources like arXiv, focusing on momentum trading and investing strategies.
+The script starts by importing necessary libraries such as `asyncio`, `json`, `feedparser`, and `datetime`. It loads environment variables and initializes a language model from Google's Gemini-2.5-flash.
 
-2. **AI Agent Architecture**: Multiple agent notebooks (agent1.ipynb through agent5.ipynb) suggest a multi-agent system where different agents may handle specific tasks in the research workflow.
+## 2. Search Queries
 
-3. **ArXiv Integration**: The system has specific functionality for querying and processing papers from arXiv, as evidenced by files like `arxiv_momentum_data.json` and `visited_arxiv.json`.
+The script defines a list of search queries for fetching papers related to momentum trading and investing. These queries include terms like "momentum trading," "momentum investing," and "momentum transformer."
 
-4. **Structured Data Output**: Research results are stored in both human-readable formats (markdown files) and machine-readable formats (JSON files) for further processing and analysis.
+## 3. File Paths
 
-5. **Topic Focus**: The project focuses specifically on momentum trading and investing strategies, with queries targeting related concepts like "momentum transformer" and "intraday momentum strategy".
+The script specifies file paths for storing visited papers, markdown summaries, and structured data. This includes files like `visited_arxiv.json`, `arxiv_momentum_summary.md`, and `arxiv_momentum_data.json`.
 
-6. **Error Handling**: The presence of `error_report.md` indicates the system has error tracking and reporting capabilities to monitor and troubleshoot issues.
+## 4. Helper Functions
 
-7. **Market Event Analysis**: Files like `market_events_report.md` and `market_events_structured.json` suggest the system analyzes market events in relation to momentum strategies.
+The script includes several helper functions to manage data and files:
 
-8. **Source Tracking**: The `visited_sources.json` file likely keeps track of sources that have been analyzed to prevent duplication and build a knowledge base.
+- **Load Visited Papers**: Loads a set of already visited paper IDs from a JSON file.
+- **Save Visited Papers**: Saves the set of visited paper IDs to a JSON file.
+- **Append Markdown**: Appends new text to a markdown file.
+- **Append Structured**: Appends new structured data to a JSON file.
 
-9. **Temporal Organization**: Timestamp-named files (like `momentum_investing_report_2025-09-05_20-52-59.md`) indicate the system organizes research outputs chronologically.
+## 5. Fetching Papers
 
-10. **Research Summarization**: The system not only collects data but also generates summaries with practical recommendations for investors, as seen in the summary files that include "Key Findings," "Implications for Investors," and "Practical Recommendations" sections.
+The `fetch_arxiv` function fetches papers from arXiv based on a query. It handles URL encoding and error handling, ensuring robust data retrieval. It uses retries and exponential backoff for better reliability.
 
-## Technical Implementation
-The project appears to be implemented primarily in Python using Jupyter notebooks, with the main research functionality in `mo-arv1.ipynb`. It leverages browser automation through the browser-use library (version 0.7.3) and uses AI models like gemini-2.5-flash to process and analyze the content of academic papers.
+## 6. Agent Setup
 
-## Practical Applications
-This tool could be valuable for:
-- Investment researchers looking to stay updated on academic research in momentum trading
-- Quantitative analysts seeking to incorporate academic insights into trading strategies
-- Financial advisors wanting evidence-based recommendations for clients interested in momentum investing
-- Academic researchers tracking developments in the field of momentum trading and investing
+The `make_agent` function creates an agent with a specific task prompt to analyze the papers. The task prompt outlines the format for summarizing each paper, including key findings, implications for investors, and practical recommendations.
+
+## 7. Progress Tracking
+
+The `log_progress` function logs progress messages with timestamps. This helps in tracking the execution and debugging issues.
+
+## 8. Main Run Function
+
+The `run_research` function is the main function that orchestrates the fetching and processing of papers. It handles batching, error handling, and saving results. Key steps include:
+
+1. Fetching papers from all queries.
+2. Processing papers in batches.
+3. Saving markdown summaries and structured data.
+4. Updating the list of visited papers.
+5. Pausing between batches to avoid rate limiting.
+
+## 9. Test Function
+
+The `test_arxiv_fetch` function tests the arXiv fetch functionality to ensure it works correctly. It checks if papers can be fetched and displays information about the first paper.
+
+## 10. Manual Execution
+
+The script includes a section for manual execution, allowing users to run the script directly. It tests the arXiv connection and provides instructions for running the full research process.
+
+## 11. Async/Await
+
+The script uses `asyncio` for asynchronous operations, particularly in the `run_research` function. This allows for efficient handling of multiple tasks concurrently.
+
+## 12. Error Handling
+
+The script includes robust error handling and retries for fetching papers and processing them with the agent. This ensures that the script can recover from transient failures and continue processing.
