@@ -1,6 +1,3 @@
-
-
----
 # arxiv_momentum_summary.md
 ## Research Batch 1 (2025-09-06 17:48)
 
